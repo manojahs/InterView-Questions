@@ -492,6 +492,7 @@ namespace DuplicateName
 
                         b.Add(a[i]);
                         break;
+                        
                     }
                 }
             }
@@ -499,7 +500,7 @@ namespace DuplicateName
             {
                 Console.WriteLine(i + " ");
             }
-            return "true";
+            return "success";
         }
         public static void Main()
         {
